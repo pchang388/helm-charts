@@ -7,7 +7,7 @@ This is repository contains a helm chart that can be used to deploy unpoller (Un
 
 ## Why another chart? There's already a few out there
 1. I wanted something that was minimal that did not package a unifi controller deploy in the helm chart
-2. I already have a controller deployed somewhere else and more isolated
+2. I already have a controller deployed somewhere else and more isolated. But I also have all my metrics in promtheus in my existing k8 cluster and want to manage it there.
 3. Reduce bloat/text in values file and also less things to maintain and update
 4. Personally, I want to avoid putting the unifi controller in a kubernetes pod especially for a homelab where things can break often and don't want my controller being offline during those times
  - I opted to put the unifi controller on its own lxc container and run separate from my k8 cluster. Run it with docker-compose now for simplicity and uptime
