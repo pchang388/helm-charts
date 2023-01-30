@@ -6,8 +6,6 @@ This is repository contains a helm chart that can be used to deploy unpoller (Un
 * Kubernetes v1.2X (tested on v1.25.6)
 
 ## Why another chart? There's already a few out there
-amd also
-
 1. I wanted something that was minimal that did not package a unifi controller deploy in the helm chart
 2. I already have a controller deployed somewhere else and more isolated
 3. Reduce bloat/text in values file and also less things to maintain and update
