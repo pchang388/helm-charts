@@ -52,5 +52,5 @@ Explanations:
         * For Cloud Key, should be the actual username
 
 3. `UP_UNIFI_CONTROLLER_0_SAVE_DPI`
-    * This is `enabled` by default values and requires DPI (Deep Packet Inspection) to be enabled for your site in Unifi
+    * This is set to `enabled` by default and requires DPI (Deep Packet Inspection) to be enabled for your site in Unifi
     * If not `enabled`, you will see no data
