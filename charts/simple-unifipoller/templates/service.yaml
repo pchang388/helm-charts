@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "simple-unifipoller.fullname" . }}
+  labels:
+    {{- include "simple-unifipoller.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.port }}
+      protocol: TCP
+      name: prom
+  selector:
+    {{- include "simple-unifipoller.selectorLabels" . | nindent 4 }}
