@@ -3,7 +3,7 @@ APP_VERSION=v2.7.11
 CHART_NAME=simple-unifipoller
 DEPLOY_TEST_NAMESPACE=test-unpoller
 CHART_FILE=${CHART_NAME}/Chart.yaml
-GITHUB_REPO=https://github.com/pchang388/simple-unifipoller
+GITHUB_PAGE_REPO=https://pchang388.github.io/simple-unifipoller
 
 
 lint:
@@ -27,7 +27,7 @@ pkg_helm:
 	helm package ${CHART_NAME}
 
 update_index:
-	helm repo index ${CHART_NAME}/ --url ${GITHUB_REPO}
+	helm repo index ${CHART_NAME}/ --url ${GITHUB_PAGE_REPO}
 
 ##  regex: starts with caputres line then replaces
 update_versions:
