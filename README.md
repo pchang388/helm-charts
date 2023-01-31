@@ -10,8 +10,8 @@ This is repository contains a helm chart that can be used to deploy unpoller (Un
 * Prometheus + Grafana
 
 ## Dependencies
-* Helm v3.X (tested on v3.11.0)
-* Kubernetes v1.2X (tested on v1.25.6)
+* Helm `v3.X` (tested on v3.11.0)
+* Kubernetes `v1.2X` (tested on v1.25.6)
 
 ## Why another chart? There's already a few out there
 1. I wanted something that was minimal that did not package a unifi controller deploy in the helm chart
