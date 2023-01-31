@@ -1,5 +1,12 @@
 # simple-unifipoller
-This is repository contains a helm chart that can be used to deploy unpoller (Unifi Controller metrics collector) in a simple manner without being coupled to a controller deploy and while also providing helpful comments and tips from my personal experiences.
+This is repository contains a helm chart that can be used to deploy unpoller (Unifi Controller metrics collector)  for *_prometheus_* metrics in a simple manner without being coupled to a controller deploy and while also providing helpful comments.
+
+## Applications Used
+* Unifi Controller
+    - https://hub.docker.com/r/linuxserver/unifi-controller
+* Unpoller
+    - https://github.com/unpoller/unpoller
+* Prometheus + Grafana
 
 ## Dependencies
 * Helm v3.X (tested on v3.11.0)
