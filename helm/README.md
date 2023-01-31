@@ -40,10 +40,10 @@ References:
 
 Explanations:
 1. `UP_PROMETHEUS_NAMESPACE`
-    * By default the image is going to use the value of UP_PROMETHEUS_NAMESPACE ( not your actual deployed namespace) to prepend the metrics
+    * By default, the image is going to use the value of UP_PROMETHEUS_NAMESPACE ( not your actual deployed namespace) to prepend the metrics
     * example: "{{ namespace }}_client_receive_bytes_total" => "unpoller_client_receive_bytes_total"
     * Since the grafana charts (https://github.com/unpoller/dashboards) all have `unpoller` set in the prom queries, you should put this as `unpoller`
-    * To clarify: You can install this helm chart in any namespace you'd like though, just keep it the below var equal to "unpoller" for metrics
+    * To clarify: You can install this helm chart in any namespace you'd like though, just keep it the above env variable equal to "unpoller" for metrics
 
 2. `UP_UNIFI_CONTROLLER_0_USER`
     * As mentioned earlier:
