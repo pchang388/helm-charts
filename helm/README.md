@@ -1,4 +1,4 @@
-# Helm Chart To Simply Deploy Unpoller For Prometheus Metrics
+# Simply Deploy Unpoller For Prometheus Metrics
 See readme here: https://github.com/pchang388/simple-unifipoller for information on motivation
 
 ## Tested On
