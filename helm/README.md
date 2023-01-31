@@ -9,7 +9,7 @@ See readme here: https://github.com/pchang388/simple-unifipoller for information
 - Unpoller `v2.7.11`
     - https://github.com/unpoller/unpoller
 
-## Prerequsites
+## Prerequisites
 Ensure you have created a user in your unifi site as described here: https://unpoller.com/docs/install/controllerlogin
 
 ## Deploy
