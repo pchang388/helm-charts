@@ -44,6 +44,7 @@ Explanations:
     * example: "{{ namespace }}_client_receive_bytes_total" => "unpoller_client_receive_bytes_total"
     * Since the grafana charts (https://github.com/unpoller/dashboards) all have `unpoller` set in the prom queries, you should put this as `unpoller`
     * To clarify: You can install this helm chart in any namespace you'd like though, just keep it the above env variable equal to "unpoller" for metrics
+    * This info is still accurate at the time of writing
 
 2. `UP_UNIFI_CONTROLLER_0_USER`
     * As mentioned earlier:
