@@ -10,7 +10,7 @@ See readme here: https://github.com/pchang388/simple-unifipoller for information
     - https://github.com/unpoller/unpoller
 
 ## Prerequsites
-Ensure you have created a user in your unifi settings as described here: https://unpoller.com/docs/install/controllerlogin
+Ensure you have created a user in your unifi site as described here: https://unpoller.com/docs/install/controllerlogin
 
 ## Deploy
 If you just want to deploy as simple as possible, change only the variables below in values.yaml file before you deploy
