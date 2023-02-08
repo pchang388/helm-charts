@@ -3,7 +3,7 @@ APP_VERSION=v2.7.11
 CHART_NAME=simple-unifipoller
 DEPLOY_TEST_NAMESPACE=test-unpoller
 CHART_FILE=${CHART_NAME}/Chart.yaml
-GITHUB_PAGE_REPO=https://pchang388.github.io/simple-unifipoller
+GITHUB_PAGE_REPO=https://pchang388.github.io/helm-charts/
 
 
 lint:
