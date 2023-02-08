@@ -23,4 +23,4 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 ## App (unpoller) Version
-appVersion: "2.7.11"
+appVersion: v2.7.11
